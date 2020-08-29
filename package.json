@@ -1,15 +1,18 @@
 {
   "name": "note-taker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A simple, clean note taking app.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Josh Zappone",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
