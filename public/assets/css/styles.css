@@ -68,3 +68,20 @@ html, body {
   padding: 20px;
   cursor: pointer;
 }
+
+/* Custom */
+
+.site-title {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.list-container .list-group-item:hover {
+  background-color: #bae0d9;
+}
+
+.list-container .list-group-item.selected:hover {
+  background-color: #95cfc4;
+}
+.selected {
+  background-color: #95cfc4;
+}

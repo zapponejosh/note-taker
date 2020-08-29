@@ -81,12 +81,16 @@ const handleNoteDelete = function (event) {
 
 // Sets the activeNote and displays it
 const handleNoteView = function () {
+  // console.log(target)
+  $('.list-group-item').removeClass('selected');
+  $(this).addClass('selected')
   activeNote = $(this).data();
   renderActiveNote();
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = function () {
+
   activeNote = {};
   renderActiveNote();
 };
